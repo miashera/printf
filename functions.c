@@ -1,14 +1,14 @@
 #include "main.h"
 /* PRINT CHAr */
 /**
- * print_char - Prints a char
+ * print_char - a char is printed
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates flags that are active
  * @width: Width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: No of chars printed
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -19,14 +19,14 @@ int print_char(va_list types, char buffer[],
 }
 /* PRINT A STRING */
 /**
- * print_string - Prints a string
+ * print_string - a string is printed
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
+ * @flags: Calculates flags that are active
+ * @width: width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: No of chars printed
  */
 int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
